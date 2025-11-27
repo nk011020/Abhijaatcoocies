@@ -1,0 +1,27 @@
+{
+  "name": "r4j-m1shr4-websocket-messenger",
+  "version": "2.0.0",
+  "description": "Facebook Auto-Messenger with WebSocket & Cookie Persistence",
+  "main": "auto-messenger-websocket-server.js",
+  "scripts": {
+    "start": "node auto-messenger-websocket-server.js",
+    "dev": "nodemon auto-messenger-websocket-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "fca-mafiya": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "websocket",
+    "auto",
+    "bot"
+  ],
+  "author": "R4J M1SHR4",
+  "license": "MIT"
+}
